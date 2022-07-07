@@ -4,7 +4,7 @@ How many tiles are needed?
 You buy 17 packages of tiles containing 6 tiles each. How many tiles will be left over?
 
 # Fill this in with an expression that calculates how many tiles are needed.
-print(98)
+print(9*7+5*7)
 
 # Fill this in with an expression that calculates how many tiles will be left over.
-print(4)
+print(17*6-(9*7+5*7))
