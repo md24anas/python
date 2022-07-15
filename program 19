@@ -1,0 +1,25 @@
+You need to write a loop that takes the numbers in a given list named num_list:
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
+
+Your code should add up the odd numbers in the list, but only up to the first 5 odd numbers together. 
+If there are more than 5 odd numbers, you should stop at the fifth. If there are fewer than 5 odd numbers, add all of the odd numbers.
+
+Would you use a while or a for loop to write this code?
+
+We have provided our solution on the next page. Feel free to use the coding playground below to test your code.
+
+## Please use this space to test and run your code
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
+odd_list=0
+i=0
+new_list=0
+len_num_list=len(num_list)
+
+while (odd_list<5) and (i<len_num_list):
+    if num_list[i]%2!=0:
+        new_list+=num_list[i]
+        odd_list+=1
+    i+=1
+print(" number of odd numbers added are: {}\n".format(odd_list))
+print("sum of odd numbers: {}".format(new_list))
+
